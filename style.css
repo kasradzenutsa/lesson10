@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+.body{
+    background-color: #F7F7F7;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.logo {
+margin-top: 50px;
+margin-left: 5px;
+top: 23px;
+left: 27px;
+width: 27px;
+height: 27px;
+border: 8px solid var(--unnamed-color-000000);
+border: 8px solid #000000;
+border-radius: 50%;
+}
+.nav-settings  li {
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-12)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-brandon-grotesque);
+letter-spacing: var(--unnamed-character-spacing-1-2);
+color: var(--unnamed-color-000000);
+text-align: left;
+font: normal normal bold 12px/18px Brandon Grotesque;
+letter-spacing: 1.2px;
+color: #000000;
+display: flex;
+flex-direction: row;
+margin-top: 28px;
+padding: 50px;
+}
+nav ul {
+    display: flex;
+    
+}
+.circle {
+margin-top: 380px;
+margin-left: 1370px;
+width: 670px;
+height: 670px;
+/* UI Properties */
+border: 8px solid var(--unnamed-color-000000);
+border: 150px solid #000000;
+border-radius: 50%;
+opacity: 15%;
+}
+.left-text {
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 30px/43px var(--unnamed-font-family-brandon-grotesque);
+color: var(--unnamed-color-262626);
+text-align: left;
+font: normal normal bold 30px/43px Brandon Grotesque;
+letter-spacing: 9px;
+color: #262626;
+
+}
+.title-equipe {
+position: absolute;
+top: 150px;
+left: 180px;
+width: 153px;
+height: 43px;
+}
+.left-para {
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 32.7px/48.6px var(--unnamed-font-family-tisa-ot);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-262626);
+text-align: left;
+font: normal normal normal 33px/49px Tisa OT;
+letter-spacing: 0px;
+color: #262626;
+}
+.para-equipe {
+position: absolute;
+top: 253px;
+left: 180px;
+width: 642px;
+height: 97px;
+}
+.left-text2 {
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-25)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-brandon-grotesque);
+letter-spacing: var(--unnamed-character-spacing-5);
+color: var(--unnamed-color-111111);
+text-align: left;
+font: normal normal bold 25px/30px Brandon Grotesque;
+letter-spacing: 5px;
+color: #111111;
+}
+.title-notre {
+position: absolute;
+top: 532px;
+left: 180px;
+}
+.left-para2 {
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-25)/var(--unnamed-line-spacing-44) var(--unnamed-font-family-tisa-ot);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-262626);
+text-align: left;
+font: normal normal normal 25px/44px Tisa OT;
+letter-spacing: 0px;
+color: #262626;
+}
+.para-notre {
+position: absolute;
+top: 621px;
+left: 180px;
+width: 512px;
+height: 168px;
+}
+.container {
+    position: absolute;
+    top: 969px;
+    left: 350px;
+    background-color: rgb(240, 236, 232);
+}
+.box{
+    display: flex;
+   
+    margin-top: 400px;
+    width: calc(100% / 3 - 20px);
+}
+.girl-picture{
+    border-radius: 50%;
+}
